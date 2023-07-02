@@ -7,7 +7,7 @@ def Encrypt(word, password):
 	#Bword var, Beter word
 	Bword = list(word)
 	#char list, list of a,...0
-	charlist = list("qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM[]{};:'\"\\|,<.>/?1234567890=_+()*&^%$#@!~` ")
+	charlist = list("ضصثقفغعهخحشسیبلاتنمکگظطزرذدپqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM[]{};:'\"\\|,<.>/?1234567890=_+()*&^%$#@!~` ")
 	#for(for detecting all chars in Bword)
 	for i in range(len(Bword)):
 		#li var, current word has it
