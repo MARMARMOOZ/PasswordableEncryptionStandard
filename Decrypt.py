@@ -7,7 +7,7 @@ def Decrypt(Eword, password):
 	#BEword var, beter Eword
 	BEword = list(Eword)
 	#char list
-	charlist = list("qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM[]{};:'\"\\|,<.>/?1234567890=_+()*&^%$#@!~` ")
+	charlist = list("ضصثقفغعهخحشسیبلاتنمکگظطزرذدپqwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM[]{};:'\"\\|,<.>/?1234567890=_+()*&^%$#@!~` ")
 	#token var, lexer char saving in this
 	token = ""
 	#for(lexer)
